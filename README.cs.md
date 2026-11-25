@@ -6,6 +6,10 @@ Desktopový nástroj pro Windows, který v katalogu **Lightroom Classic** (`.lrc
 
 Napsáno v Rustu, GUI přes `egui`. Použitelné i headless z příkazové řádky.
 
+![LrCatFix s ukázkovým katalogem](docs/screenshots/lrcatfix-gui.webp)
+
+*Screenshot z fiktivního testovacího katalogu (stejné scénáře jako `tests/fixtures/make.rs`).*
+
 ---
 
 ## Jaký problém řeší

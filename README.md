@@ -6,6 +6,10 @@ A Windows desktop tool that finds photos with broken paths in a **Lightroom Clas
 
 Built in Rust with an `egui` GUI. Also usable headless from the CLI.
 
+![LrCatFix with a sample catalog](docs/screenshots/lrcatfix-gui.webp)
+
+*Screenshot from a fictional test catalog (same scenarios as `tests/fixtures/make.rs`).*
+
 ---
 
 ## What problem it solves
