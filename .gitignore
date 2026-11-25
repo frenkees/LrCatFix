@@ -1,0 +1,22 @@
+/target
+# Náhradní build adresář pro případ, že běžící .exe drží ten hlavní.
+/target-fixed
+config.toml
+*.lrcat-backup
+*.index-cache.bin
+LrCatFix-backups/
+
+# Skutečné katalogy uživatele se do repozitáře NIKDY nesmí dostat
+# (CLAUDE.md §7). Obsahují osobní data - cesty ke všem fotkám, klíčová
+# slova, historii úprav - a mají stovky MB.
+*.lrcat
+*.lrcat-data
+*.lrcat-journal
+*.lrcat-wal
+*.lrcat.lock
+/lrcatalogue/
+lrcatfix-*.json
+*.journal.jsonl
+
+# Lokální nastavení Claude Code
+.claude/settings.local.json
